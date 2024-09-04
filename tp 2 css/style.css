@@ -1,0 +1,189 @@
+h1{
+    font-size: 2rem;
+}
+header{
+    background-color: rgba(13, 207, 175, 0.779);
+    background-size: auto;
+    height: auto;
+    width: auto;
+}
+main{
+    background-color: white;
+}
+.parafo1{
+    padding: 15px;
+    color: green;
+    align-items: center;
+    font-family: "comic sans MS" ;
+    text-decoration: line-through;
+}
+blockquote{
+    font-size: 2rem;
+    text-transform: ;
+    text-decoration: underline; 
+    text-align: center;
+   
+}
+.spiderman{
+    padding: 5px;
+    margin-left: 15px; 
+    
+    background-color: rgba(32, 30, 110, 0.389);
+    background-clip: border-box 1rem;
+    
+}
+.texto{
+
+    text-align: center;
+
+}
+.box{
+    box-align: center;
+    text-align: center;
+    width: 420px;
+    height: 50px;
+
+}
+
+.box2{
+    
+    background-color: rgba(255, 235, 205, 0.327);
+    width: 500px;
+    height: 60px;
+    border: 0.2rem solid black;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    border-radius: 1rem;
+    box-shadow:  4px 4px 4px 4px;
+    text-align: center;
+    line-height: -1rem;
+}
+.box3{
+    color: white;
+    width: 439px;
+    height: 220px;
+    background-image: url(splderman.jpg) ;
+    background-size: auto;
+}
+.box4{
+    text-align: center;
+    border-radius: 14rem black;
+    width: auto;
+    height: 175px;
+    text-align: center ;
+    box-shadow: 0px 0px 0px 0px;
+
+    background-position: center;
+    background-size: 170px ;
+    background: image-set(url(logosp2.jpg));
+    
+}
+.box5{
+    color: white;
+    border-radius: 14rem black;
+    box-shadow: 0px 0px 0px 0px;
+    position: absolute;
+    right: 0vmax;
+    top: 105%;
+    background-image:url(logosp1.jpg) ;
+    background-size: auto ;
+    justify-content: center;
+    background-position: center ;
+    width: 540px;
+    height: 175px;
+    
+}
+.box6{
+    color: white;
+    width: 450px;
+    height: 175px;
+    border-radius: 14rem black;
+    box-shadow: 0px 0px 0px 0px;
+    position: absolute;
+    left: 0vmax;
+    top: 105%;
+    background-image: url(logosp3.jpg);
+}
+@media screen and (max-width: 900px){
+ 
+    h1{
+        font-size: xx-small;
+    }
+    main{
+        background-color: gray;
+    }
+}
+.contenedor{
+    border: 1px solid black;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.elemento{
+    border: 5px solid black;
+}
+.contenedorGrilla{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    height: 10rem;
+}
+.contenedorGrilla div {
+
+    background-color: azure;
+    text-align: center;
+    border: 0.2rem solid black;
+    border-radius: 14rem;
+}
+.boxt{
+    
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s ease-in-out;
+    border: 3px solid black;
+    position: relative;
+    left: 40vmax;;
+
+}
+.boxt:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+.boxt2{
+    
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+   background-color: aqua;
+    border: 3px solid black;
+    border-radius: 14rem;
+    animation: mover 2s infinite;
+    text-align: center;
+}
+@keyframes mover {
+    0% {
+        transform: translateX(0) ;
+    }
+    50% {
+        transform: translate(200px);
+
+    }
+    50% {
+        transform: translate(600px);
+
+    }
+
+}
+.boxt2:hover {
+    cursor: pointer;
+    background-image:url(splderman2.jpg);
+}
